@@ -27,13 +27,13 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Digital Marketing</Subtitle>
             <h1>
               Logan Speck
             </h1>
             <h2>
-              I provide Digital Marketing Services to Businesses, Individuals, and Brands
+              I provide Digital Marketing services to businesses, individuals, and brands
             </h2>
+              <a class="headbuttonlink" href="#features"><HeaderButton>Learn More</HeaderButton></a>
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
@@ -86,6 +86,10 @@ const HeaderTextGroup = styled.div`
 
   p {
     margin-bottom: 48px;
+  }
+
+  .headbuttonlink {
+    text-decoration: none;
   }
 `
 

@@ -4,42 +4,42 @@ import styled from "styled-components"
 import { Section, Container } from "../global"
 
 const Features = () => (
-  <Section id="features">
+  <Section id="services">
     <StyledContainer>
-      <Subtitle>Features</Subtitle>
-      <SectionTitle>Smart money management</SectionTitle>
+      <Subtitle>Just the Highlights</Subtitle>
+      <SectionTitle>Services</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Notifications</FeatureTitle>
+          <FeatureTitle>Web Development</FeatureTitle>
           <FeatureText>
             Receive budget and spending alerts based on your favorite triggers.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Security</FeatureTitle>
+          <FeatureTitle>Social Media Management</FeatureTitle>
           <FeatureText>
             Your data is always safe with us as we use the latest security
             protocols.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
+          <FeatureTitle>Graphic Design</FeatureTitle>
           <FeatureText>
             Create smart automated workflows and triggers for your money.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Aggregation</FeatureTitle>
+          <FeatureTitle>Solution Integration</FeatureTitle>
           <FeatureText>
             Easily link up to 5 banks to your finance account.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Payments</FeatureTitle>
+          <FeatureTitle>Business Process Automation</FeatureTitle>
           <FeatureText>Send money to friends and family with ease.</FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Rewards</FeatureTitle>
+          <FeatureTitle>Brand Management</FeatureTitle>
           <FeatureText>
             High interest and rewards for hitting your goals.
           </FeatureText>
@@ -70,9 +70,9 @@ const Subtitle = styled.h5`
 `
 
 const FeaturesGrid = styled.div`
-  max-width: 670px;
+  max-width: 1500px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   margin: 0px auto;
   grid-column-gap: 40px;
   grid-row-gap: 35px;
@@ -84,9 +84,10 @@ const FeaturesGrid = styled.div`
 
 const FeatureItem = styled.div`
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  height: 500px;
+  padding: 5%
 `
 
 const FeatureTitle = styled.h4`
@@ -94,6 +95,7 @@ const FeatureTitle = styled.h4`
   letter-spacing: 0px;
   line-height: 30px;
   margin-bottom: 10px;
+  text-align: center;
 `
 
 const FeatureText = styled.p`
