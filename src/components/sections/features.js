@@ -11,14 +11,14 @@ const Features = () => (
       <Subtitle>Just the Highlights</Subtitle>
       <FeaturesGrid>
         <FeatureItem>
-        <StaticImage width="300px" src="/Users/loganspeck/Documents/loganspecksite/src/images/ills/Website-Login.svg" alt="website login" />
+        <StaticImage width="300px" src="../../images/ills/Website-Login.svg" alt="website login" />
           <FeatureTitle>Web Development</FeatureTitle>
           <FeatureText>
             Receive budget and spending alerts based on your favorite triggers.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-        <StaticImage width="300px" src="/Users/loganspeck/Documents/loganspecksite/src/images/ills/Socialmedia-Marketing.svg" alt="social-media" />
+        <StaticImage width="300px" src="../../images/ills/Socialmedia-Marketing.svg" alt="social-media" />
           <FeatureTitle>Social Media Management</FeatureTitle>
           <FeatureText>
             Your data is always safe with us as we use the latest security
@@ -26,14 +26,14 @@ const Features = () => (
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-        <StaticImage width="300px" src="/Users/loganspeck/Documents/loganspecksite/src/images/ills/Design-collaboration.svg" alt="design" />
+        <StaticImage width="300px" src="../../images/ills/Design-collaboration.svg" alt="design" />
           <FeatureTitle>Graphic Design</FeatureTitle>
           <FeatureText>
             Create smart automated workflows and triggers for your money.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-        <StaticImage width="300px" src="/Users/loganspeck/Documents/loganspecksite/src/images/ills/Server.svg" alt="server" />
+        <StaticImage width="300px" src="../../images/ills/Server.svg" alt="server" />
           <FeatureTitle>Solution Integration</FeatureTitle>
           <FeatureText>
             Easily link up to 5 banks to your finance account.

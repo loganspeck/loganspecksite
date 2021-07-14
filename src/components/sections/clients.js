@@ -18,7 +18,7 @@ const Clients = () => (
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-        <StaticImage width="300px" src="/Users/loganspeck/Documents/Strapi/gatsby-starter-saas-marketing/src/images/logos/bnb-logo.png" alt="bnb-logo" />
+        <StaticImage width="300px" src="../../images/logos/bnb-logo.png" alt="bnb-logo" />
           <FeatureTitle>B&B Beverage Management</FeatureTitle>
           <Subtitle2inline><Subtitle2>Web Development</Subtitle2><Subtitle2>Social Media</Subtitle2></Subtitle2inline>
           <FeatureText>
@@ -27,7 +27,7 @@ const Clients = () => (
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <StaticImage width="300px" src="/Users/loganspeck/Documents/Strapi/gatsby-starter-saas-marketing/src/images/logos/auburn-logo.jpeg" alt="auburn-logo" />
+          <StaticImage width="300px" src="../../images/logos/auburn-logo.jpeg" alt="auburn-logo" />
           <FeatureTitle>Auburn University</FeatureTitle>
           <Subtitle2inline><Subtitle2>Web Development</Subtitle2><Subtitle2>Solutions Integration</Subtitle2></Subtitle2inline>
           <FeatureText>
@@ -35,7 +35,7 @@ const Clients = () => (
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-        <StaticImage width="300px" src="/Users/loganspeck/Documents/Strapi/gatsby-starter-saas-marketing/src/images/logos/soco-logo.jpeg" alt="soco-logo" />
+        <StaticImage width="300px" src="../../images/logos/soco-logo.jpeg" alt="soco-logo" />
           <FeatureTitle>Soco Hernando</FeatureTitle>
           <Subtitle2inline><Subtitle2>Web Development</Subtitle2><Subtitle2>Graphic Design</Subtitle2></Subtitle2inline><Subtitle2>Social Media</Subtitle2>
           <FeatureText>
@@ -43,7 +43,7 @@ const Clients = () => (
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-        <StaticImage width="300px" src="/Users/loganspeck/Documents/loganspecksite/src/images/logos/ampro-logo.jpg" alt="ampro-logo" />
+        <StaticImage width="300px" src="../../images/logos/ampro-logo.jpg" alt="ampro-logo" />
           <FeatureTitle>AmPro Promotional Marketing</FeatureTitle>
           <Subtitle2inline><Subtitle2>Web Development</Subtitle2><Subtitle2>Solutions Integration</Subtitle2></Subtitle2inline>
           <FeatureText>Send money to friends and family with ease.</FeatureText>
