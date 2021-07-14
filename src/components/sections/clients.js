@@ -49,7 +49,7 @@ const Clients = () => (
           <FeatureText>Send money to friends and family with ease.</FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <MoreButton>View More</MoreButton>
+          <a href="/clients"><MoreButton>View More</MoreButton></a>
         </FeatureItem>
       </FeaturesGrid>
     </StyledContainer>
@@ -80,8 +80,8 @@ const Subtitle = styled.h5`
 
 const Subtitle2 = styled.h5`
   font-size: 16px;
-  background-color: ${props => props.theme.color.background.light};
-  color: ${props => props.theme.color.accent};
+  background-color: rgba(52, 163, 163, .35);
+  color: ${props => props.theme.color.primary};
   letter-spacing: 0px;
   margin: 5px 5px;
   text-align: center;
@@ -90,9 +90,9 @@ const Subtitle2 = styled.h5`
 `
 
 const FeaturesGrid = styled.div`
-  max-width: 1200px;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 33%);
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 0px auto;
   grid-column-gap: 40px;
   grid-row-gap: 35px;
@@ -113,10 +113,14 @@ align-items: center;
 flex-direction: column;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
 transition: 0.3s;
-padding: 25px;
+padding: 2%;
 border-radius: 5px;
 &:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+& a {
+  text-decoration: none;
+  color: inherit;
 }
 `
 

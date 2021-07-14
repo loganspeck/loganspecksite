@@ -33,7 +33,7 @@ const Header = () => {
             <h2>
               I provide Digital Marketing services to businesses, individuals, and brands
             </h2>
-              <a class="headbuttonlink" href="#features"><HeaderButton>Learn More</HeaderButton></a>
+              <a class="headbuttonlink" href="#services"><HeaderButton>Learn More</HeaderButton></a>
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
@@ -160,7 +160,6 @@ const HeaderButton = styled.button`
   letter-spacing: 1px;
   height: 60px;
   display: block;
-  margin-left: 8px;
   text-transform: uppercase;
   cursor: pointer;
   white-space: nowrap;

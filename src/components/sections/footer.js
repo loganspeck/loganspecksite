@@ -36,15 +36,15 @@ const Footer = () => (
       </FooterColumn>
     </FooterColumnContainer>
     <BrandContainer>
-      <Logo>Finance</Logo>
+      <Logo>Logan Speck</Logo>
     </BrandContainer>
   </FooterWrapper>
 )
 
 const FooterWrapper = styled.footer`
-  background-color: white;
+  background-color: ${props => props.theme.color.secondary};
   margin: 80px 0 0;
-  padding: 0 0 80px;
+  padding: 40px 0 80px;
 `
 
 const Logo = styled.div`

@@ -7,7 +7,7 @@ const GetStarted = () => (
   <StyledSection>
     <GetStartedContainer>
       <GetStartedTitle>Ready to get started?</GetStartedTitle>
-      <TryItButton>Contact Me</TryItButton>
+      <a href="/contact"><TryItButton>Contact Me</TryItButton></a>
     </GetStartedContainer>
   </StyledSection>
 )
@@ -17,6 +17,10 @@ export default GetStarted
 const StyledSection = styled(Section)`
   background-color: ${props => props.theme.color.background.light};
   clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
+  & a {
+    text-decoration: none;
+    color: inherit;
+  }
 `
 
 const GetStartedContainer = styled(Container)`
