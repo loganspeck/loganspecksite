@@ -43,7 +43,7 @@ const Clients = () => (
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-        <StaticImage width="300px" src="/Users/loganspeck/Documents/Strapi/gatsby-starter-saas-marketing/src/images/logos/ampro-logo.jpg" alt="ampro-logo" />
+        <StaticImage width="300px" src="/Users/loganspeck/Documents/loganspecksite/src/images/logos/ampro-logo.jpg" alt="ampro-logo" />
           <FeatureTitle>AmPro Promotional Marketing</FeatureTitle>
           <Subtitle2inline><Subtitle2>Web Development</Subtitle2><Subtitle2>Solutions Integration</Subtitle2></Subtitle2inline>
           <FeatureText>Send money to friends and family with ease.</FeatureText>

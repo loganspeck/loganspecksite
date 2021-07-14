@@ -5,7 +5,7 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `Logan Speck Digital Marketing`,
-    description: `I provide digital marketing services to Businesses, Individuals, and Brands`,
+    description: `A simple one page marketing starter for saas companies.`,
     author: `Logan Speck`,
   },
   plugins: [
@@ -22,6 +22,7 @@ module.exports = {
         // Setting this parameter is also optional
         respectDNT: true,
       },
+       
     },
     {
       resolve: `gatsby-source-filesystem`,
@@ -31,7 +32,25 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+    {
+    resolve: `gatsby-plugin-sharp`,
+      options: {
+        defaults: {
+          formats: [`auto`, `webp`],
+          placeholder: `dominantColor`,
+          quality: 50,
+          breakpoints: [750, 1080, 1366, 1920],
+          backgroundColor: `transparent`,
+          tracedSVGOptions: {},
+          blurredOptions: {},
+          jpgOptions: {},
+          pngOptions: {},
+          webpOptions: {},
+          avifOptions: {},
+        },
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
