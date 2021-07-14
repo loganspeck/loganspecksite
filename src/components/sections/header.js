@@ -27,24 +27,13 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
+            <Subtitle>Digital Marketing</Subtitle>
             <h1>
-              All your money,
-              <br />
-              one account
+              Logan Speck
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+              I provide Digital Marketing Services to Businesses, Individuals, and Brands
             </h2>
-            <HeaderForm onSubmit={handleSubmit}>
-              <HeaderInput placeholder="Your email" />
-              <HeaderButton>Early access</HeaderButton>
-            </HeaderForm>
-            <FormSubtitle>
-              Already have a beta account?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
-            </FormSubtitle>
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
