@@ -10,7 +10,7 @@ const Clients = () => (
       <SectionTitle>Featured Clients</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-        <StaticImage width="300px" src="/Users/loganspeck/Documents/Strapi/gatsby-starter-saas-marketing/src/images/logos/sds-logo.png" alt="sds-logo" />
+        <StaticImage width="300px" src="../../images/logos/sds-logo.png" alt="sds-logo" />
           <FeatureTitle>Saturday Down South</FeatureTitle>
           <Subtitle2inline><Subtitle2>Social Media</Subtitle2><Subtitle2>Graphic Design</Subtitle2></Subtitle2inline>
           <FeatureText>
